@@ -38,5 +38,5 @@ $ ./gradlew gatlingRun
 
 [source, bash]
 ----
-$ ./gradlew gatlingRun-computerdatabase.BasicSimulation
+$ gradlew gatling -Psim="simulations.BasicSimulation" -PjvmArgs=""
 ----
